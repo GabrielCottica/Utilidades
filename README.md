@@ -51,6 +51,6 @@ cd nome-do-repositorio
 É uma boa prática criar uma branch específica para cada correção ou implementação.
 
 ### Nomenclatura recomendada para branches de correção:
-- `fix/` -> para correções de bugs comuns
-- `bugfix/` -> para correções de bugs documentados em issues
-- `hotfix/` -> para correções urgentes, geralmente em produção
+- `fix/nome_correcao` -> para correções de bugs comuns
+- `bugfix/nome_correcao` -> para correções de bugs documentados em issues
+- `hotfix/nome_correcao` -> para correções urgentes, geralmente em produção
