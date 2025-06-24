@@ -8,6 +8,8 @@ Repositório de referências rápidas, comandos úteis, ícones e tutoriais para
 
 - [Simbologia e ícones úteis](icones.md)
 - [GitLab: clonando, corrigindo e subindo uma branch de correção](comandos_git.md)
+- [VIM/VI: comandos úteis](comandos_vim.md)
+- [NANO: comandos úteis](comandos_nano.md)
 
 ---
 
