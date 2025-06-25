@@ -6,10 +6,11 @@ Repositório de referências rápidas, comandos úteis, ícones e tutoriais para
 
 ## 📄 Conteúdo
 
-- [Simbologia e ícones úteis](icones.md)
-- [GitLab: clonando, corrigindo e subindo uma branch de correção](comandos_git.md)
-- [VIM/VI: comandos úteis](comandos_vim.md)
+- [GITLAB: clonando, corrigindo e subindo uma branch de correção](comandos_git.md)
+- [LINUX: comandos úteis](comandos_linux.md)
 - [NANO: comandos úteis](comandos_nano.md)
+- [VIM/VI: comandos úteis](comandos_vim.md)
+- [MARKDOWN: símbolos e ícones úteis](icones.md)
 
 ---
 
