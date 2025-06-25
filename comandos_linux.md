@@ -97,3 +97,44 @@ Para ver as permissões atuais de arquivos/pastas:
 
 ```sh
 find /home/usuario/Documentos -type f -name "*.pdf"
+```
+_Busca todos os arquivos PDF dentro de /home/usuario/Documentos e suas subpastas._
+
+**Outros exemplos:**
+
+* Buscar arquivos modificados nas últimas 24 horas:
+```sh
+find . -type f -mtime -1
+```
+
+* Buscar arquivos com permissão exata 777:
+```sh
+find /var/www -type f -perm 0777
+```
+_Lista arquivos com permissão total (leitura, escrita e execução para todos) dentro de /var/www._
+
+**O que significa cada opção?**
+
+`-type f`: limita a busca a arquivos comuns (ignora diretórios, links, etc.)
+
+`-name "padrão"`: busca arquivos pelo nome, podendo usar curingas (ex: `*.txt`)
+
+`-mtime -1`: arquivos modificados há menos de 1 dia (`-2` = menos de 2 dias, `1` = exatos 1 dia atrás)
+
+`-perm 0777:` busca arquivos com permissão exata 777 (todos podem ler, escrever e executar)
+
+Exemplo:
+```sh
+find . -type f -name "*.txt"
+```
+Procura, a partir do diretório atual (`.`), todos os arquivos (não pastas) terminados em `.txt`.
+
+### Dicas Rápidas
+
+* Completar comandos/nomes de arquivos: `Tab`
+
+* Histórico de comandos: Use as setas ↑ e ↓
+
+* Executar último comando: `!!`
+
+* Comando anterior com sudo: `sudo !!`
